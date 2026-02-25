@@ -1,0 +1,15 @@
+## Interface: 120000
+## Title: EatingNamNam
+## Notes: Enhances your eating and drinking experience with playful messages.
+## Author: Wait
+## Version: @project-version@
+## IconTexture: Interface\Icons\INV_Misc_Food_DimSum
+## SavedVariables: EatingNamNamDB
+## X-Category: Buffs & Debuffs
+## X-Website: https://github.com/CHANGEME/EatingNamNam
+## X-License: MIT
+## X-Curse-Project-ID: CHANGEME
+## X-Wago-ID: CHANGEME
+## X-WoWI-ID: CHANGEME
+
+EatingNamNam.lua
