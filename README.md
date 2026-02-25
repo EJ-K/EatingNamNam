@@ -1,8 +1,8 @@
 # EatingNamNam
 
-A World of Warcraft addon that announces when you start and stop eating or drinking in group instances.
+> This project is utter vibe coded nonsense.
 
-<!-- TODO: Add wago.io link once published -->
+A World of Warcraft addon that announces when you start and stop eating or drinking in group instances.
 
 ## Features
 
@@ -10,6 +10,8 @@ A World of Warcraft addon that announces when you start and stop eating or drink
 - Sends a SAY message when you start eating/drinking and another when you finish
 - Only announces in group instances (dungeons and raids) so you don't spam the world
 - Supports multiple message pairs with random selection each session
+- Messages are capped at 255 characters
+- Pairs with empty start or stop messages are skipped
 - Configurable through the WoW addon settings panel
 
 ## Usage
@@ -27,11 +29,11 @@ Open the settings panel with `/enn` or find **EatingNamNam** in the addon sectio
 From there you can:
 
 - **Enable/disable SAY announcements** — Toggle whether messages are sent in group instances.
-- **Manage message pairs** — Each pair has a start message (sent when you begin eating) and a stop message (sent when you finish). Add as many pairs as you like; one is chosen at random each time. Use the **Add** button to create new pairs and the **X** button to remove them.
+- **Manage message pairs** — Each pair has a start message (sent when you begin eating) and a stop message (sent when you finish). Add as many pairs as you like; a valid one is chosen at random each time. Use the **Add** button to create new pairs and the **X** button to remove them. Press Enter to save an edit, Escape to revert.
 
 ## Installation
 
-Install via [wago.io](https://wago.io) using the Wago app, or manually extract the `EatingNamNam` folder into your `World of Warcraft/_retail_/Interface/AddOns/` directory.
+Install using the [Wago app](https://addons.wago.io/addons/eatingnamnam).
 
 ## License
 

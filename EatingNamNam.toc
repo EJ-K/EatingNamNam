@@ -6,10 +6,8 @@
 ## IconTexture: Interface\Icons\INV_Misc_Food_DimSum
 ## SavedVariables: EatingNamNamDB
 ## X-Category: Buffs & Debuffs
-## X-Website: https://github.com/EJ-K/EatingNamNam
+## X-Website: https://addons.wago.io/addons/eatingnamnam
 ## X-License: MIT
-## X-Curse-Project-ID: CHANGEME
-## X-Wago-ID: CHANGEME
-## X-WoWI-ID: CHANGEME
+## X-Wago-ID: nGv7nqNx
 
 EatingNamNam.lua
