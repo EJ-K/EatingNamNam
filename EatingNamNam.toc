@@ -6,7 +6,7 @@
 ## IconTexture: Interface\Icons\INV_Misc_Food_DimSum
 ## SavedVariables: EatingNamNamDB
 ## X-Category: Buffs & Debuffs
-## X-Website: https://github.com/CHANGEME/EatingNamNam
+## X-Website: https://github.com/EJ-K/EatingNamNam
 ## X-License: MIT
 ## X-Curse-Project-ID: CHANGEME
 ## X-Wago-ID: CHANGEME
