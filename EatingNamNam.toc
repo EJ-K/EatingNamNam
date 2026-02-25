@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 120001
 ## Title: EatingNamNam
 ## Notes: Enhances your eating and drinking experience with playful messages.
 ## Author: Wait
