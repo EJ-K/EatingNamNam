@@ -45,10 +45,19 @@ end
 local function FindFoodDrinkAura()
     local found = false
     AuraUtil.ForEachAura("player", "HELPFUL", nil, function(aura)
-        if not aura or not aura.name then return end
-        local match = FOOD_DRINK_AURA_NAMES[aura.name] or FOOD_DRINK_SPELL_IDS[aura.spellId]
+        if not aura then return end
+
+        -- Use pcall to safely access potentially secret aura properties
+        local success, auraName, spellId, expirationTime = pcall(function()
+            return aura.name, aura.spellId, aura.expirationTime
+        end)
+
+        -- If access failed (secret values), skip this aura
+        if not success or not auraName then return end
+
+        local match = FOOD_DRINK_AURA_NAMES[auraName] or FOOD_DRINK_SPELL_IDS[spellId]
         if match then
-            local remaining = aura.expirationTime - GetTime()
+            local remaining = expirationTime - GetTime()
             if remaining >= (EatingNamNamDB and EatingNamNamDB.minDuration or defaults.minDuration) then
                 found = true
             end
